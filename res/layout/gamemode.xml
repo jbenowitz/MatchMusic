@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+<LinearLayout
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <TextView
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="Bands:"/>
+  
+  <TableLayout
+  	android:id="@+id/bands"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:stretchColumns="*">
+  	<TableRow>
+  		<Button 
+  			android:id="@+id/b1"
+  			android:text=" "/>
+  		<Button 
+  			android:id="@+id/b2"
+  			android:text=" "/>
+  		<Button 
+  			android:id="@+id/b3"
+  			android:text=" "/>
+  	</TableRow>
+  	<TableRow>
+  		<Button 
+  			android:id="@+id/b4"
+  			android:text=" "/>
+  		<Button 
+  			android:id="@+id/b5"
+  			android:text=" "/>
+  		<Button 
+  			android:id="@+id/b6"
+  			android:text=" "/>
+  	</TableRow>
+  	<TableRow>
+  		<Button 
+  			android:id="@+id/b7"
+  			android:text=" "/>
+  		<Button 
+  			android:id="@+id/b8"
+  			android:text=" "/>
+  		<Button 
+  			android:id="@+id/b9"
+  			android:text=" "/>
+  	</TableRow>
+</TableLayout>
+    
+    
+    
+    <TextView
+  	android:layout_width="wrap_content"
+  	android:layout_height="wrap_content"
+  	android:text="Songs:"/>
+  
+  <TableLayout
+  	android:id="@+id/songs"
+  	android:layout_width="fill_parent"
+  	android:layout_height="wrap_content"
+  	android:stretchColumns="*">
+  	<TableRow>
+  		<Button 
+  			android:id="@+id/s1"
+  			android:text=" "/>
+  		<Button 
+  			android:id="@+id/s2"
+  			android:text=" "/>
+  		<Button 
+  			android:id="@+id/s3"
+  			android:text=" "/>
+  	</TableRow>
+  	<TableRow>
+  		<Button 
+  			android:id="@+id/s4"
+  			android:text=" "/>
+  		<Button 
+  			android:id="@+id/s5"
+  			android:text=" "/>
+  		<Button 
+  			android:id="@+id/s6"
+  			android:text=" "/>
+  	</TableRow>
+  	<TableRow>
+  		<Button 
+  			android:id="@+id/s7"
+  			android:text=" "/>
+  		<Button 
+  			android:id="@+id/s8"
+  			android:text=" "/>
+  		<Button 
+  			android:id="@+id/s9"
+  			android:text=" "/>
+  	</TableRow>
+</TableLayout>
+    
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">MatchMusic</string>
+    <string name="app_name">MatchMusic</string>
+    <string name="easy">Easy Level</string>
+    <string name="hard">Hard Level</string>
+</resources>
